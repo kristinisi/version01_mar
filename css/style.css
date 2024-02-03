@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Wire+One&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+}
+
+#portada {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  grid-template-rows: [uno] 8% [dos] 90% [tres] 8% [cuatro];
+}
+
+.barra {
+  background-color: #1b1557;
+  font-family: "Playfair Display", serif;
+}
+
+.barra__style {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+.barra__style li {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.barra ul a {
+  text-decoration: none;
+  color: white;
+}
