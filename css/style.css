@@ -56,6 +56,7 @@ body {
 }
 
 .gastro {
+  padding-top: 35px;
   width: 100%;
   display: grid;
   grid-template-columns: repeat(3, 30%);
@@ -127,6 +128,8 @@ hr {
 }
 
 .reserva {
+  padding-top: 35px;
+  padding-bottom: 35px;
   text-align: center;
   margin: 20px;
   margin-bottom: 40px;
@@ -141,10 +144,11 @@ hr {
 }
 
 .nosotros {
+  padding-top: 35px;
   width: 60%;
   display: grid;
   grid-template-columns: repeat(2, 50%);
-  grid-template-rows: [uno] 150px [dos] 500px [tres]500px[cuatro] 50px[cinco];
+  grid-template-rows: [uno] 150px [dos] 500px [tres]500px[cuatro] 200px[cinco];
   justify-items: center;
 }
 
@@ -176,4 +180,18 @@ hr {
   grid-column-start: 1;
   grid-column-end: 3;
   text-align: center;
+}
+
+.foo {
+  width: 100%;
+  text-align: center;
+  background-color: #1b1557;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+.foo a {
+  text-decoration: none;
+  color: white;
 }

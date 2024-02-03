@@ -8,22 +8,22 @@
 </head>
 <body>
 
-    <header class="portada">
+    <header class="portada" id="seccionPortada">
         <nav class="barra">
             <ul class="barra__style">
-                <li><a href="#">Inicio</a></li>
-                <li><a href="#">Gastro</a></li>
-                <li><a href="#">Reserva</a></li>
-                <li><a href="#">Nosotros</a></li>
+                <li><a href="#seccionPortada">Inicio</a></li>
+                <li><a href="#seccionGastro">Gastro</a></li>
+                <li><a href="#seccionReserva">Reserva</a></li>
+                <li><a href="#seccionNosotros">Nosotros</a></li>
             </ul>
         </nav>
-        <div class="cara">
+        <section class="cara">
             <div class="cara__logotipo"><img src="./img/mar_logo_sin_fondo.png"></div>
-        </div>
+        </section>
         <div class="separador"></div>
     </header>
 
-    <main class="gastro">
+    <main class="gastro" id="seccionGastro">
         <header>
             <h1>GASTRO</h1>
             <p>Lo que te podrás encontrar en nuestro restaurante...</p>
@@ -62,7 +62,7 @@
     
     <div class="miniSeparador--horizontal"></div>
 
-    <section class="reserva"  itemprop="adress" itemscope itemtype="https://schema.org/PostalAddress">
+    <section class="reserva" id="seccionReserva" itemprop="adress" itemscope itemtype="https://schema.org/PostalAddress">
         <header>
             <h1>RESERVA</h1>
             <p>Puedes realizar tu reserva de dos formas:</p>
@@ -75,7 +75,7 @@
 
     <div class="miniSeparador--horizontal"></div>
 
-    <section class="nosotros">
+    <section class="nosotros" id="seccionNosotros">
         <header>
             <h1>NOSOTROS</h1>
             <h3>¿Quiénes somos?</h3>
@@ -99,10 +99,16 @@
             <p itemprop="addressLocality">Isla Cristina</p>
             <p itemprop="postalCode">11442</p>
        </article>
-
     </section>
 
-   
+   <footer class="foo">
+    <p>© 2024 MAR</p>
+    <p>Todos los derechos reservados.</p> 
+    <a href="#">Política de privacidad</a> | <a href="#">Términos de servicio</a>
+    <br><br>
+    <img src="./img/instagram.png">
+    <img src="./img/facebook.png">
+   </footer>
     
 
 </body>
