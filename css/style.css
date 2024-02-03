@@ -143,7 +143,7 @@ hr {
   width: 60%;
   display: grid;
   grid-template-columns: repeat(2, 50%);
-  grid-template-rows: [uno] 150px [dos] 400px [tres];
+  grid-template-rows: [uno] 150px [dos] 500px [tres];
   justify-items: center;
 }
 
@@ -156,7 +156,7 @@ hr {
 .nosotros__imagen {
   background-image: url("../img/nosotros.jpg");
   width: 290px;
-  height: 400px;
+  height: 450px;
   background-size: cover;
 }
 
