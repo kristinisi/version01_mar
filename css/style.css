@@ -4,16 +4,11 @@
   box-sizing: border-box;
 }
 
-body {
-  width: 100vw;
-  height: 100vh;
-}
-
 #portada {
   width: 100vw;
   height: 100vh;
   display: grid;
-  grid-template-rows: [uno] 8% [dos] 90% [tres] 8% [cuatro];
+  grid-template-rows: [uno] 8% [dos] 84% [tres] 8% [cuatro];
 }
 
 .barra {
@@ -35,4 +30,15 @@ body {
 .barra ul a {
   text-decoration: none;
   color: white;
+}
+
+.cara {
+  background-image: url("../img/mar_fondo.jpg");
+  background-size: cover;
+}
+
+.cara__logotipo {
+  object-fit: cover;
+  margin-left: 34vw;
+  margin-top: 6vh;
 }
