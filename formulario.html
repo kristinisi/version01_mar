@@ -12,10 +12,10 @@
     <header class="portada">
         <nav class="barra">
             <ul class="barra__style">
-                <li><a href="#">Inicio</a></li> <!--CAMBIAR ENLACE A LA OTRA PAGINA-->
-                <li><a href="#">Gastro</a></li>  <!--CAMBIAR ENLACE A LA OTRA PAGINA-->
-                <li><a href="#">Reserva</a></li> <!--CAMBIAR ENLACE A LA OTRA PAGINA-->
-                <li><a href="#">Nosotros</a></li> <!--CAMBIAR ENLACE A LA OTRA PAGINA-->
+                <li><a href="./index.html">Inicio</a></li> <!--CAMBIAR ENLACE A LA OTRA PAGINA-->
+                <li><a href="./index.html#seccionGastro">Gastro</a></li>  <!--CAMBIAR ENLACE A LA OTRA PAGINA-->
+                <li><a href="./index.html#seccionReserva">Reserva</a></li> <!--CAMBIAR ENLACE A LA OTRA PAGINA-->
+                <li><a href="./index.html#seccionNosotros">Nosotros</a></li> <!--CAMBIAR ENLACE A LA OTRA PAGINA-->
             </ul>
         </nav>
 
@@ -27,16 +27,16 @@
                         <h3>Datos de la reserva:</h3>
                         <div class="persona__nombre">
                             <label for="nombre">Nombre </label>
-                            <input type="text" name="nombre" pattern="[A-Za-z]{60}" required>
+                            <input type="text" name="nombre" pattern="[A-Za-z]+" required>
                         </div>
                         <div class="persona__apellido1">
                             <label for="apellido1">Primer apellido </label>
-                            <input type="tex" name="apellido1" pattern="[A-Za-z]{60}" required>
+                            <input type="tex" name="apellido1" pattern="[A-Za-z]+" required>
                         </div>
                         
                         <div class="persona__apellido2">
                             <label for="apellido2">Segundo apellido </label>
-                            <input type="tex" name="apellido2" pattern="[A-Za-z]{60}" required>
+                            <input type="tex" name="apellido2" pattern="[A-Za-z]+" required>
                         </div>
                         <div class="persona__hora">
                             <label for="apellido2">Hora </label>
@@ -71,7 +71,7 @@
                         </div>
                         <div class="tarjeta__titular">
                             <label for="titular" class="uno">Titular de la Tarjeta: </label>
-                            <input type="text" id="titular" pattern="[A-Za-z]{60}" required>
+                            <input type="text" id="titular" pattern="[A-Za-z]+" required>
                         </div>
                         <div class="tarjeta__importe">
                             <label for="importe">Importe: </label>

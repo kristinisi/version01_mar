@@ -143,12 +143,17 @@ hr {
   cursor: pointer;
 }
 
+.reserva__online button a {
+  text-decoration: none;
+  color: white;
+}
+
 .nosotros {
   padding-top: 35px;
   width: 60%;
   display: grid;
   grid-template-columns: repeat(2, 50%);
-  grid-template-rows: [uno] 150px [dos] 500px [tres]500px[cuatro] 200px[cinco];
+  grid-template-rows: [uno] 150px [dos] 500px [tres]200px[cuatro]; /*[tres]500[cuatro]200px[cinco]*/
   justify-items: center;
 }
 
