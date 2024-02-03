@@ -137,13 +137,14 @@ hr {
   color: white;
   width: 100%;
   border-radius: 3px;
+  cursor: pointer;
 }
 
 .nosotros {
   width: 60%;
   display: grid;
   grid-template-columns: repeat(2, 50%);
-  grid-template-rows: [uno] 150px [dos] 500px [tres];
+  grid-template-rows: [uno] 150px [dos] 500px [tres]500px[cuatro] 50px[cinco];
   justify-items: center;
 }
 
@@ -163,4 +164,16 @@ hr {
 .nosotros_descripcion {
   text-align: justify;
   padding-right: 100px;
+}
+
+.nosotros__360 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  text-align: center;
+}
+
+.nosotros__situacion {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  text-align: center;
 }

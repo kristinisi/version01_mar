@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/style.css">
-    <title>MAR</title>
 </head>
 <body>
 
@@ -63,12 +62,12 @@
     
     <div class="miniSeparador--horizontal"></div>
 
-    <section class="reserva">
+    <section class="reserva"  itemprop="adress" itemscope itemtype="https://schema.org/PostalAddress">
         <header>
             <h1>RESERVA</h1>
             <p>Puedes realizar tu reserva de dos formas:</p>
         </header>
-        <article class="reserva__telefonica">Reservar por teléfono: 926868344</article><br>
+        <article class="reserva__telefonica" >Reservar por teléfono: <span itemprop="telephone">926868344</span> </article><br>
         <article class="reserva__online">Reservar online, a través de nuestro formulario
             <br><br><button>ONLINE</button>
         </article>
@@ -89,7 +88,22 @@
 
             <br><br>En Mar, no solo servimos alimentos; ofrecemos una experiencia que celebra la riqueza del mar y la dedicación a la cocina excepcional. Únase a nosotros para explorar el sabor auténtico del océano, donde cada comida es una celebración de la frescura, la pasión y la tradición. ¡Bienvenidos a bordo!        
         </article>
+
+        <article class="nosotros__360">
+            AQUÍ DEBERÍA DE IR LA IMAGEN 360
+        </article>
+
+       <article class="nosotros__situacion" itemprop="adress" itemscope itemtype="https://schema.org/PostalAddress">
+            <h3>¿Dónde encontrarnos?</h3>
+            <p itemprop="streetAddress">Calle Lope de Vega, 33</p>
+            <p itemprop="addressLocality">Isla Cristina</p>
+            <p itemprop="postalCode">11442</p>
+       </article>
+
     </section>
+
+   
     
+
 </body>
 </html>
