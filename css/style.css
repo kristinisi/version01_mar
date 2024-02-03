@@ -140,10 +140,27 @@ hr {
 }
 
 .nosotros {
+  width: 60%;
   display: grid;
-  grid-template-columns: repeat(2, 30%);
+  grid-template-columns: repeat(2, 50%);
+  grid-template-rows: [uno] 150px [dos] 400px [tres];
+  justify-items: center;
 }
 
 .nosotros header {
+  grid-column-start: 1;
+  grid-column-end: 3;
   text-align: center;
+}
+
+.nosotros__imagen {
+  background-image: url("../img/nosotros.jpg");
+  width: 290px;
+  height: 400px;
+  background-size: cover;
+}
+
+.nosotros_descripcion {
+  text-align: justify;
+  padding-right: 100px;
 }
